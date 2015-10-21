@@ -5,9 +5,11 @@ Cyclops is a small utility for Mac that aims to improve the experience when show
 
 ### Why and when to use it?
 
-A good example is live-coding, most of the time the secondary screen is a projector and the experience of live coding can be annoying due to the huge font and the duplication on a screen that has a low resolution. This is why I prototyped this utility after a nice chat with @icanzilb.
+A good example is live-coding, most of the time the secondary screen is a projector and the experience of live coding can be annoying due to the huge font and the duplication on a screen that has a low resolution. This is why I prototyped this utility after a nice chat with [@icanzilb](https://github.com/icanzilb).
 
 An example of how it works can be found on [Vimeo](https://vimeo.com/141288676).
+
+![Menu](Doc/Screen.png)
 
 ### Status
 
