@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB0836161BC152BE00C3405F /* SourceArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0836141BC152BE00C3405F /* SourceArea.swift */; settings = {ASSET_TAGS = (); }; };
+		CB08361A1BC152E900C3405F /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0836191BC152E900C3405F /* InfoView.swift */; settings = {ASSET_TAGS = (); }; };
+		CB08361C1BC177CF00C3405F /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB08361B1BC177CF00C3405F /* SelectionView.swift */; settings = {ASSET_TAGS = (); }; };
+		CB08361E1BC17AA900C3405F /* OverlayWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB08361D1BC17AA900C3405F /* OverlayWindow.swift */; settings = {ASSET_TAGS = (); }; };
+		CB2D83901BBE7A3F0063A725 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2D838F1BBE7A3F0063A725 /* AppDelegate.swift */; };
+		CB2D83921BBE7A3F0063A725 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB2D83911BBE7A3F0063A725 /* Assets.xcassets */; };
+		CB2D83951BBE7A3F0063A725 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB2D83931BBE7A3F0063A725 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB0836141BC152BE00C3405F /* SourceArea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceArea.swift; sourceTree = "<group>"; };
+		CB0836191BC152E900C3405F /* InfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		CB08361B1BC177CF00C3405F /* SelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
+		CB08361D1BC17AA900C3405F /* OverlayWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OverlayWindow.swift; path = Windows/OverlayWindow.swift; sourceTree = "<group>"; };
+		CB2D838C1BBE7A3F0063A725 /* Polyphemus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Polyphemus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB2D838F1BBE7A3F0063A725 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB2D83911BBE7A3F0063A725 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB2D83941BBE7A3F0063A725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CB2D83961BBE7A3F0063A725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD01721C822F1A13CC7D81D0 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB2D83891BBE7A3F0063A725 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73A6D17FDD5F6F81171F9DD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD01721C822F1A13CC7D81D0 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB0836131BC152BE00C3405F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CB0836141BC152BE00C3405F /* SourceArea.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB0836151BC152BE00C3405F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CB0836191BC152E900C3405F /* InfoView.swift */,
+				CB08361B1BC177CF00C3405F /* SelectionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CB08361F1BC17AAD00C3405F /* Windows */ = {
+			isa = PBXGroup;
+			children = (
+				CB08361D1BC17AA900C3405F /* OverlayWindow.swift */,
+			);
+			name = Windows;
+			sourceTree = "<group>";
+		};
+		CB2D83831BBE7A3F0063A725 = {
+			isa = PBXGroup;
+			children = (
+				CB2D838E1BBE7A3F0063A725 /* Polyphemus */,
+				CB2D838D1BBE7A3F0063A725 /* Products */,
+				73A6D17FDD5F6F81171F9DD4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CB2D838D1BBE7A3F0063A725 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB2D838C1BBE7A3F0063A725 /* Polyphemus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB2D838E1BBE7A3F0063A725 /* Polyphemus */ = {
+			isa = PBXGroup;
+			children = (
+				CB0836131BC152BE00C3405F /* Model */,
+				CB0836151BC152BE00C3405F /* Views */,
+				CB08361F1BC17AAD00C3405F /* Windows */,
+				CB2D838F1BBE7A3F0063A725 /* AppDelegate.swift */,
+				CB2D83911BBE7A3F0063A725 /* Assets.xcassets */,
+				CB2D83931BBE7A3F0063A725 /* MainMenu.xib */,
+				CB2D83961BBE7A3F0063A725 /* Info.plist */,
+			);
+			path = Polyphemus;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB2D838B1BBE7A3F0063A725 /* Polyphemus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB2D83991BBE7A3F0063A725 /* Build configuration list for PBXNativeTarget "Polyphemus" */;
+			buildPhases = (
+				CB2D83881BBE7A3F0063A725 /* Sources */,
+				CB2D83891BBE7A3F0063A725 /* Frameworks */,
+				CB2D838A1BBE7A3F0063A725 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Polyphemus;
+			productName = Polyphemus;
+			productReference = CB2D838C1BBE7A3F0063A725 /* Polyphemus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB2D83841BBE7A3F0063A725 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Bonto.ch;
+				TargetAttributes = {
+					CB2D838B1BBE7A3F0063A725 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 4BGYDQR2GQ;
+					};
+				};
+			};
+			buildConfigurationList = CB2D83871BBE7A3F0063A725 /* Build configuration list for PBXProject "Polyphemus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB2D83831BBE7A3F0063A725;
+			productRefGroup = CB2D838D1BBE7A3F0063A725 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB2D838B1BBE7A3F0063A725 /* Polyphemus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB2D838A1BBE7A3F0063A725 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB2D83921BBE7A3F0063A725 /* Assets.xcassets in Resources */,
+				CB2D83951BBE7A3F0063A725 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB2D83881BBE7A3F0063A725 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB2D83901BBE7A3F0063A725 /* AppDelegate.swift in Sources */,
+				CB08361E1BC17AA900C3405F /* OverlayWindow.swift in Sources */,
+				CB08361A1BC152E900C3405F /* InfoView.swift in Sources */,
+				CB0836161BC152BE00C3405F /* SourceArea.swift in Sources */,
+				CB08361C1BC177CF00C3405F /* SelectionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB2D83931BBE7A3F0063A725 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB2D83941BBE7A3F0063A725 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB2D83971BBE7A3F0063A725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB2D83981BBE7A3F0063A725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CB2D839A1BBE7A3F0063A725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Polyphemus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.bonto.Polyphemus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB2D839B1BBE7A3F0063A725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Polyphemus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.bonto.Polyphemus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB2D83871BBE7A3F0063A725 /* Build configuration list for PBXProject "Polyphemus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB2D83971BBE7A3F0063A725 /* Debug */,
+				CB2D83981BBE7A3F0063A725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB2D83991BBE7A3F0063A725 /* Build configuration list for PBXNativeTarget "Polyphemus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB2D839A1BBE7A3F0063A725 /* Debug */,
+				CB2D839B1BBE7A3F0063A725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB2D83841BBE7A3F0063A725 /* Project object */;
+}

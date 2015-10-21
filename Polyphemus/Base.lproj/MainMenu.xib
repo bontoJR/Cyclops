@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="8191"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="Voe-Tx-rLC" id="GzC-gU-4Uq"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Polyphemus" customModuleProvider="target">
+            <connections>
+                <outlet property="exitFullScreenBtn" destination="Aop-RT-4vK" id="4yu-Fa-XVp"/>
+                <outlet property="mainMenu" destination="Uza-n4-ng6" id="i85-an-iC5"/>
+                <outlet property="makeAreaFullscreenBtn" destination="Mhe-aH-azl" id="z7Q-wM-KFu"/>
+            </connections>
+        </customObject>
+        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <menu autoenablesItems="NO" id="Uza-n4-ng6">
+            <items>
+                <menuItem title="Create a Source Area" id="8CT-IO-IHv">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="createSourceAreaClicked:" target="Voe-Tx-rLC" id="Vni-Zj-7j7"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Make Source Area as Fullscreen" id="Mhe-aH-azl">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="makeSourceAreaFullscreenClicked:" target="Voe-Tx-rLC" id="Mqm-Ip-6u4"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Exit Fullscreen Mode" enabled="NO" id="Aop-RT-4vK">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="exitFullscreenClicked:" target="Voe-Tx-rLC" id="UoS-me-DN1"/>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="FAr-fh-rxC"/>
+                <menuItem title="Quit" id="M0m-0F-tJx">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="quitClicked:" target="Voe-Tx-rLC" id="P2U-pe-sMl"/>
+                    </connections>
+                </menuItem>
+            </items>
+            <point key="canvasLocation" x="161" y="72.5"/>
+        </menu>
+    </objects>
+</document>
